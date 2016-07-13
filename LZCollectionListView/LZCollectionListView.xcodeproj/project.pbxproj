@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		913350921D337E91006E5F3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350911D337E91006E5F3D /* main.m */; };
+		913350951D337E91006E5F3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350941D337E91006E5F3D /* AppDelegate.m */; };
+		913350981D337E91006E5F3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350971D337E91006E5F3D /* ViewController.m */; };
+		9133509B1D337E91006E5F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913350991D337E91006E5F3D /* Main.storyboard */; };
+		9133509E1D337E91006E5F3D /* LZCollectionListView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9133509C1D337E91006E5F3D /* LZCollectionListView.xcdatamodeld */; };
+		913350A01D337E91006E5F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9133509F1D337E91006E5F3D /* Assets.xcassets */; };
+		913350A31D337E91006E5F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913350A11D337E91006E5F3D /* LaunchScreen.storyboard */; };
+		913350AE1D337E92006E5F3D /* LZCollectionListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350AD1D337E92006E5F3D /* LZCollectionListViewTests.m */; };
+		913350B91D337E92006E5F3D /* LZCollectionListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350B81D337E92006E5F3D /* LZCollectionListViewUITests.m */; };
+		913350C91D337FC9006E5F3D /* LZCollectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350C81D337FC9006E5F3D /* LZCollectionTableViewCell.m */; };
+		913350E41D33801D006E5F3D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350CC1D33801D006E5F3D /* MASCompositeConstraint.m */; };
+		913350E51D33801D006E5F3D /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350CF1D33801D006E5F3D /* MASConstraint.m */; };
+		913350E61D33801D006E5F3D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350D11D33801D006E5F3D /* MASConstraintMaker.m */; };
+		913350E71D33801D006E5F3D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350D31D33801D006E5F3D /* MASLayoutConstraint.m */; };
+		913350E81D33801D006E5F3D /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350D71D33801D006E5F3D /* MASViewAttribute.m */; };
+		913350E91D33801D006E5F3D /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350D91D33801D006E5F3D /* MASViewConstraint.m */; };
+		913350EA1D33801D006E5F3D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350DB1D33801D006E5F3D /* NSArray+MASAdditions.m */; };
+		913350EB1D33801D006E5F3D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350DE1D33801D006E5F3D /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		913350EC1D33801D006E5F3D /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350E01D33801D006E5F3D /* View+MASAdditions.m */; };
+		913350ED1D33801D006E5F3D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350E31D33801D006E5F3D /* ViewController+MASAdditions.m */; };
+		913350F11D3380E5006E5F3D /* LZTableViewCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350F01D3380E5006E5F3D /* LZTableViewCellContentView.m */; };
+		913350F41D338DAE006E5F3D /* LZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350F31D338DAE006E5F3D /* LZModel.m */; };
+		913350F61D3391E7006E5F3D /* 40fe711f9b754b596159f3a6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 913350F51D3391E7006E5F3D /* 40fe711f9b754b596159f3a6.jpg */; };
+		913350F91D339C37006E5F3D /* LZCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350F81D339C37006E5F3D /* LZCollectionView.m */; };
+		913350FC1D339C47006E5F3D /* LZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 913350FB1D339C47006E5F3D /* LZTableView.m */; };
+		91D3174F1D349EBF00F19591 /* LZCollectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D3174E1D349EBF00F19591 /* LZCollectionFooter.m */; };
+		91D317521D34D23E00F19591 /* LZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D317511D34D23E00F19591 /* LZCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		913350AA1D337E92006E5F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 913350851D337E91006E5F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9133508C1D337E91006E5F3D;
+			remoteInfo = LZCollectionListView;
+		};
+		913350B51D337E92006E5F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 913350851D337E91006E5F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9133508C1D337E91006E5F3D;
+			remoteInfo = LZCollectionListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9133508D1D337E91006E5F3D /* LZCollectionListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZCollectionListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		913350911D337E91006E5F3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		913350931D337E91006E5F3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		913350941D337E91006E5F3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		913350961D337E91006E5F3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		913350971D337E91006E5F3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9133509A1D337E91006E5F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9133509D1D337E91006E5F3D /* LZCollectionListView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LZCollectionListView.xcdatamodel; sourceTree = "<group>"; };
+		9133509F1D337E91006E5F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		913350A21D337E91006E5F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		913350A41D337E91006E5F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913350A91D337E92006E5F3D /* LZCollectionListViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZCollectionListViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		913350AD1D337E92006E5F3D /* LZCollectionListViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCollectionListViewTests.m; sourceTree = "<group>"; };
+		913350AF1D337E92006E5F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913350B41D337E92006E5F3D /* LZCollectionListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZCollectionListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		913350B81D337E92006E5F3D /* LZCollectionListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCollectionListViewUITests.m; sourceTree = "<group>"; };
+		913350BA1D337E92006E5F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913350C71D337FC9006E5F3D /* LZCollectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCollectionTableViewCell.h; sourceTree = "<group>"; };
+		913350C81D337FC9006E5F3D /* LZCollectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCollectionTableViewCell.m; sourceTree = "<group>"; };
+		913350CB1D33801D006E5F3D /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		913350CC1D33801D006E5F3D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		913350CD1D33801D006E5F3D /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		913350CE1D33801D006E5F3D /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		913350CF1D33801D006E5F3D /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		913350D01D33801D006E5F3D /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		913350D11D33801D006E5F3D /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		913350D21D33801D006E5F3D /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		913350D31D33801D006E5F3D /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		913350D41D33801D006E5F3D /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		913350D51D33801D006E5F3D /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		913350D61D33801D006E5F3D /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		913350D71D33801D006E5F3D /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		913350D81D33801D006E5F3D /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		913350D91D33801D006E5F3D /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		913350DA1D33801D006E5F3D /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		913350DB1D33801D006E5F3D /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		913350DC1D33801D006E5F3D /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		913350DD1D33801D006E5F3D /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		913350DE1D33801D006E5F3D /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		913350DF1D33801D006E5F3D /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		913350E01D33801D006E5F3D /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		913350E11D33801D006E5F3D /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		913350E21D33801D006E5F3D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		913350E31D33801D006E5F3D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		913350EE1D338038006E5F3D /* LZConfigFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZConfigFile.h; sourceTree = "<group>"; };
+		913350EF1D3380E5006E5F3D /* LZTableViewCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTableViewCellContentView.h; sourceTree = "<group>"; };
+		913350F01D3380E5006E5F3D /* LZTableViewCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTableViewCellContentView.m; sourceTree = "<group>"; };
+		913350F21D338DAE006E5F3D /* LZModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZModel.h; sourceTree = "<group>"; };
+		913350F31D338DAE006E5F3D /* LZModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZModel.m; sourceTree = "<group>"; };
+		913350F51D3391E7006E5F3D /* 40fe711f9b754b596159f3a6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 40fe711f9b754b596159f3a6.jpg; sourceTree = "<group>"; };
+		913350F71D339C37006E5F3D /* LZCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCollectionView.h; sourceTree = "<group>"; };
+		913350F81D339C37006E5F3D /* LZCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCollectionView.m; sourceTree = "<group>"; };
+		913350FA1D339C47006E5F3D /* LZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTableView.h; sourceTree = "<group>"; };
+		913350FB1D339C47006E5F3D /* LZTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTableView.m; sourceTree = "<group>"; };
+		91D3174D1D349EBF00F19591 /* LZCollectionFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCollectionFooter.h; sourceTree = "<group>"; };
+		91D3174E1D349EBF00F19591 /* LZCollectionFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCollectionFooter.m; sourceTree = "<group>"; };
+		91D317501D34D23E00F19591 /* LZCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCollectionViewCell.h; sourceTree = "<group>"; };
+		91D317511D34D23E00F19591 /* LZCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9133508A1D337E91006E5F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913350A61D337E92006E5F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913350B11D337E92006E5F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		913350841D337E91006E5F3D = {
+			isa = PBXGroup;
+			children = (
+				9133508F1D337E91006E5F3D /* LZCollectionListView */,
+				913350AC1D337E92006E5F3D /* LZCollectionListViewTests */,
+				913350B71D337E92006E5F3D /* LZCollectionListViewUITests */,
+				9133508E1D337E91006E5F3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9133508E1D337E91006E5F3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9133508D1D337E91006E5F3D /* LZCollectionListView.app */,
+				913350A91D337E92006E5F3D /* LZCollectionListViewTests.xctest */,
+				913350B41D337E92006E5F3D /* LZCollectionListViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9133508F1D337E91006E5F3D /* LZCollectionListView */ = {
+			isa = PBXGroup;
+			children = (
+				913350F51D3391E7006E5F3D /* 40fe711f9b754b596159f3a6.jpg */,
+				913350CA1D33801D006E5F3D /* Masonry */,
+				913350C61D337EB0006E5F3D /* LZCollectionListView */,
+				913350931D337E91006E5F3D /* AppDelegate.h */,
+				913350941D337E91006E5F3D /* AppDelegate.m */,
+				913350961D337E91006E5F3D /* ViewController.h */,
+				913350971D337E91006E5F3D /* ViewController.m */,
+				913350991D337E91006E5F3D /* Main.storyboard */,
+				9133509F1D337E91006E5F3D /* Assets.xcassets */,
+				913350A11D337E91006E5F3D /* LaunchScreen.storyboard */,
+				913350A41D337E91006E5F3D /* Info.plist */,
+				9133509C1D337E91006E5F3D /* LZCollectionListView.xcdatamodeld */,
+				913350901D337E91006E5F3D /* Supporting Files */,
+			);
+			path = LZCollectionListView;
+			sourceTree = "<group>";
+		};
+		913350901D337E91006E5F3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				913350911D337E91006E5F3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		913350AC1D337E92006E5F3D /* LZCollectionListViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				913350AD1D337E92006E5F3D /* LZCollectionListViewTests.m */,
+				913350AF1D337E92006E5F3D /* Info.plist */,
+			);
+			path = LZCollectionListViewTests;
+			sourceTree = "<group>";
+		};
+		913350B71D337E92006E5F3D /* LZCollectionListViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				913350B81D337E92006E5F3D /* LZCollectionListViewUITests.m */,
+				913350BA1D337E92006E5F3D /* Info.plist */,
+			);
+			path = LZCollectionListViewUITests;
+			sourceTree = "<group>";
+		};
+		913350C61D337EB0006E5F3D /* LZCollectionListView */ = {
+			isa = PBXGroup;
+			children = (
+				913350EE1D338038006E5F3D /* LZConfigFile.h */,
+				913350F21D338DAE006E5F3D /* LZModel.h */,
+				913350F31D338DAE006E5F3D /* LZModel.m */,
+				91D317551D34E5C300F19591 /* LZTableView */,
+				91D317531D34DF7F00F19591 /* LZCollectionFile */,
+			);
+			path = LZCollectionListView;
+			sourceTree = "<group>";
+		};
+		913350CA1D33801D006E5F3D /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				913350CB1D33801D006E5F3D /* MASCompositeConstraint.h */,
+				913350CC1D33801D006E5F3D /* MASCompositeConstraint.m */,
+				913350CD1D33801D006E5F3D /* MASConstraint+Private.h */,
+				913350CE1D33801D006E5F3D /* MASConstraint.h */,
+				913350CF1D33801D006E5F3D /* MASConstraint.m */,
+				913350D01D33801D006E5F3D /* MASConstraintMaker.h */,
+				913350D11D33801D006E5F3D /* MASConstraintMaker.m */,
+				913350D21D33801D006E5F3D /* MASLayoutConstraint.h */,
+				913350D31D33801D006E5F3D /* MASLayoutConstraint.m */,
+				913350D41D33801D006E5F3D /* Masonry.h */,
+				913350D51D33801D006E5F3D /* MASUtilities.h */,
+				913350D61D33801D006E5F3D /* MASViewAttribute.h */,
+				913350D71D33801D006E5F3D /* MASViewAttribute.m */,
+				913350D81D33801D006E5F3D /* MASViewConstraint.h */,
+				913350D91D33801D006E5F3D /* MASViewConstraint.m */,
+				913350DA1D33801D006E5F3D /* NSArray+MASAdditions.h */,
+				913350DB1D33801D006E5F3D /* NSArray+MASAdditions.m */,
+				913350DC1D33801D006E5F3D /* NSArray+MASShorthandAdditions.h */,
+				913350DD1D33801D006E5F3D /* NSLayoutConstraint+MASDebugAdditions.h */,
+				913350DE1D33801D006E5F3D /* NSLayoutConstraint+MASDebugAdditions.m */,
+				913350DF1D33801D006E5F3D /* View+MASAdditions.h */,
+				913350E01D33801D006E5F3D /* View+MASAdditions.m */,
+				913350E11D33801D006E5F3D /* View+MASShorthandAdditions.h */,
+				913350E21D33801D006E5F3D /* ViewController+MASAdditions.h */,
+				913350E31D33801D006E5F3D /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		91D317531D34DF7F00F19591 /* LZCollectionFile */ = {
+			isa = PBXGroup;
+			children = (
+				913350F71D339C37006E5F3D /* LZCollectionView.h */,
+				913350F81D339C37006E5F3D /* LZCollectionView.m */,
+				91D3174D1D349EBF00F19591 /* LZCollectionFooter.h */,
+				91D3174E1D349EBF00F19591 /* LZCollectionFooter.m */,
+				91D317501D34D23E00F19591 /* LZCollectionViewCell.h */,
+				91D317511D34D23E00F19591 /* LZCollectionViewCell.m */,
+			);
+			name = LZCollectionFile;
+			sourceTree = "<group>";
+		};
+		91D317551D34E5C300F19591 /* LZTableView */ = {
+			isa = PBXGroup;
+			children = (
+				913350FA1D339C47006E5F3D /* LZTableView.h */,
+				913350FB1D339C47006E5F3D /* LZTableView.m */,
+				913350C71D337FC9006E5F3D /* LZCollectionTableViewCell.h */,
+				913350C81D337FC9006E5F3D /* LZCollectionTableViewCell.m */,
+				913350EF1D3380E5006E5F3D /* LZTableViewCellContentView.h */,
+				913350F01D3380E5006E5F3D /* LZTableViewCellContentView.m */,
+			);
+			name = LZTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9133508C1D337E91006E5F3D /* LZCollectionListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913350BD1D337E92006E5F3D /* Build configuration list for PBXNativeTarget "LZCollectionListView" */;
+			buildPhases = (
+				913350891D337E91006E5F3D /* Sources */,
+				9133508A1D337E91006E5F3D /* Frameworks */,
+				9133508B1D337E91006E5F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZCollectionListView;
+			productName = LZCollectionListView;
+			productReference = 9133508D1D337E91006E5F3D /* LZCollectionListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		913350A81D337E92006E5F3D /* LZCollectionListViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913350C01D337E92006E5F3D /* Build configuration list for PBXNativeTarget "LZCollectionListViewTests" */;
+			buildPhases = (
+				913350A51D337E92006E5F3D /* Sources */,
+				913350A61D337E92006E5F3D /* Frameworks */,
+				913350A71D337E92006E5F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				913350AB1D337E92006E5F3D /* PBXTargetDependency */,
+			);
+			name = LZCollectionListViewTests;
+			productName = LZCollectionListViewTests;
+			productReference = 913350A91D337E92006E5F3D /* LZCollectionListViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		913350B31D337E92006E5F3D /* LZCollectionListViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913350C31D337E92006E5F3D /* Build configuration list for PBXNativeTarget "LZCollectionListViewUITests" */;
+			buildPhases = (
+				913350B01D337E92006E5F3D /* Sources */,
+				913350B11D337E92006E5F3D /* Frameworks */,
+				913350B21D337E92006E5F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				913350B61D337E92006E5F3D /* PBXTargetDependency */,
+			);
+			name = LZCollectionListViewUITests;
+			productName = LZCollectionListViewUITests;
+			productReference = 913350B41D337E92006E5F3D /* LZCollectionListViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		913350851D337E91006E5F3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Artup;
+				TargetAttributes = {
+					9133508C1D337E91006E5F3D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 29BN9F9KNE;
+					};
+					913350A81D337E92006E5F3D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9133508C1D337E91006E5F3D;
+					};
+					913350B31D337E92006E5F3D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9133508C1D337E91006E5F3D;
+					};
+				};
+			};
+			buildConfigurationList = 913350881D337E91006E5F3D /* Build configuration list for PBXProject "LZCollectionListView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 913350841D337E91006E5F3D;
+			productRefGroup = 9133508E1D337E91006E5F3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9133508C1D337E91006E5F3D /* LZCollectionListView */,
+				913350A81D337E92006E5F3D /* LZCollectionListViewTests */,
+				913350B31D337E92006E5F3D /* LZCollectionListViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9133508B1D337E91006E5F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913350A31D337E91006E5F3D /* LaunchScreen.storyboard in Resources */,
+				913350F61D3391E7006E5F3D /* 40fe711f9b754b596159f3a6.jpg in Resources */,
+				913350A01D337E91006E5F3D /* Assets.xcassets in Resources */,
+				9133509B1D337E91006E5F3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913350A71D337E92006E5F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913350B21D337E92006E5F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		913350891D337E91006E5F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913350FC1D339C47006E5F3D /* LZTableView.m in Sources */,
+				913350F41D338DAE006E5F3D /* LZModel.m in Sources */,
+				913350EB1D33801D006E5F3D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				913350981D337E91006E5F3D /* ViewController.m in Sources */,
+				91D3174F1D349EBF00F19591 /* LZCollectionFooter.m in Sources */,
+				913350E91D33801D006E5F3D /* MASViewConstraint.m in Sources */,
+				913350F91D339C37006E5F3D /* LZCollectionView.m in Sources */,
+				913350951D337E91006E5F3D /* AppDelegate.m in Sources */,
+				9133509E1D337E91006E5F3D /* LZCollectionListView.xcdatamodeld in Sources */,
+				913350C91D337FC9006E5F3D /* LZCollectionTableViewCell.m in Sources */,
+				913350F11D3380E5006E5F3D /* LZTableViewCellContentView.m in Sources */,
+				913350EC1D33801D006E5F3D /* View+MASAdditions.m in Sources */,
+				913350E41D33801D006E5F3D /* MASCompositeConstraint.m in Sources */,
+				913350E81D33801D006E5F3D /* MASViewAttribute.m in Sources */,
+				913350E61D33801D006E5F3D /* MASConstraintMaker.m in Sources */,
+				913350EA1D33801D006E5F3D /* NSArray+MASAdditions.m in Sources */,
+				913350ED1D33801D006E5F3D /* ViewController+MASAdditions.m in Sources */,
+				913350E51D33801D006E5F3D /* MASConstraint.m in Sources */,
+				91D317521D34D23E00F19591 /* LZCollectionViewCell.m in Sources */,
+				913350E71D33801D006E5F3D /* MASLayoutConstraint.m in Sources */,
+				913350921D337E91006E5F3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913350A51D337E92006E5F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913350AE1D337E92006E5F3D /* LZCollectionListViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913350B01D337E92006E5F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913350B91D337E92006E5F3D /* LZCollectionListViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		913350AB1D337E92006E5F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9133508C1D337E91006E5F3D /* LZCollectionListView */;
+			targetProxy = 913350AA1D337E92006E5F3D /* PBXContainerItemProxy */;
+		};
+		913350B61D337E92006E5F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9133508C1D337E91006E5F3D /* LZCollectionListView */;
+			targetProxy = 913350B51D337E92006E5F3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		913350991D337E91006E5F3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9133509A1D337E91006E5F3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		913350A11D337E91006E5F3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913350A21D337E91006E5F3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		913350BB1D337E92006E5F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		913350BC1D337E92006E5F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		913350BE1D337E92006E5F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LZCollectionListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZCollectionListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		913350BF1D337E92006E5F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LZCollectionListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZCollectionListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		913350C11D337E92006E5F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZCollectionListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZCollectionListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZCollectionListView.app/LZCollectionListView";
+			};
+			name = Debug;
+		};
+		913350C21D337E92006E5F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZCollectionListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZCollectionListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZCollectionListView.app/LZCollectionListView";
+			};
+			name = Release;
+		};
+		913350C41D337E92006E5F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZCollectionListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZCollectionListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZCollectionListView;
+			};
+			name = Debug;
+		};
+		913350C51D337E92006E5F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZCollectionListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZCollectionListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZCollectionListView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		913350881D337E91006E5F3D /* Build configuration list for PBXProject "LZCollectionListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913350BB1D337E92006E5F3D /* Debug */,
+				913350BC1D337E92006E5F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913350BD1D337E92006E5F3D /* Build configuration list for PBXNativeTarget "LZCollectionListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913350BE1D337E92006E5F3D /* Debug */,
+				913350BF1D337E92006E5F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913350C01D337E92006E5F3D /* Build configuration list for PBXNativeTarget "LZCollectionListViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913350C11D337E92006E5F3D /* Debug */,
+				913350C21D337E92006E5F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913350C31D337E92006E5F3D /* Build configuration list for PBXNativeTarget "LZCollectionListViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913350C41D337E92006E5F3D /* Debug */,
+				913350C51D337E92006E5F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9133509C1D337E91006E5F3D /* LZCollectionListView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9133509D1D337E91006E5F3D /* LZCollectionListView.xcdatamodel */,
+			);
+			currentVersion = 9133509D1D337E91006E5F3D /* LZCollectionListView.xcdatamodel */;
+			path = LZCollectionListView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 913350851D337E91006E5F3D /* Project object */;
+}
